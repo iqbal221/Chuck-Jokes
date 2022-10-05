@@ -1,0 +1,42 @@
+.header-img{
+    background-image: url('../../assets/assets_Homework_Front-End_02/bitmap.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+header h1{
+    font-size:48px;
+    line-height: 72px;
+    color:#cfb995;
+    width:350px;
+    height:72px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-bottom:0;
+    margin:0;
+}
+
+header p{
+    color:white;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top:0;
+    width:350px;
+    text-align: center;
+}
+
+header input{
+    width:330px;
+    padding:10px 12px;
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top:20px;
+}
+
