@@ -2,8 +2,9 @@ import React from "react";
 import "./CardSingle.css";
 
 const CardSingle = ({ joke }) => {
+  console.log(joke);
   return (
-    <div className="jokes">
+    <div className="card">
       <p>{joke.value}</p>
     </div>
   );
