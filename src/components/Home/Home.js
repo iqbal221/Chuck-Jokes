@@ -27,15 +27,14 @@ const Home = () => {
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
-  console.log(jokes);
 
   return (
     <div>
       <Navbar></Navbar>
       <Header handleSearch={handleSearch}></Header>
       <div className="main-container">
-        <ButtonGroup></ButtonGroup>
-        <hr />
+        <ButtonGroup jokes={jokes}></ButtonGroup>
+
         <CardGroup jokes={jokes}></CardGroup>
       </div>
       <div>

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ButtonGroup.css";
 import ButtonSingle from "../ButtonSingle/ButtonSingle";
 
-const ButtonGroup = () => {
+const ButtonGroup = ({ jokes }) => {
   return (
     <div className="button-group">
       <ButtonSingle text="ADULT JOKES" background="#ff5b5b"></ButtonSingle>

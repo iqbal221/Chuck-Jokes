@@ -2,10 +2,14 @@
     background-image: url('../../assets/assets_Homework_Front-End_02/bitmap.png');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    padding:50px;
+}
+
+.header-text{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:50px;
 }
 
 header h1{
@@ -42,3 +46,13 @@ header input{
     margin-top:20px;
 }
 
+@media only screen and (min-device-width:320px) and (max-device-width:568px) {
+    .header-img{
+        background-image: url('../../assets/assets_Homework_Front-End_02/bitmap@3x.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding:50px;
+        width:650px;
+    }
+}
